@@ -1,0 +1,6 @@
+{
+    "require": {
+        "omnipay/omnipay": "~2.0",
+        "crumbls/events": "dev"
+    }
+}
