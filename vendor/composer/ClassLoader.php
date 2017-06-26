@@ -322,11 +322,13 @@ class ClassLoader
         if (isset($this->classMap[$class])) {
             return $this->classMap[$class];
         }
+
         if ($this->classMapAuthoritative || isset($this->missingClasses[$class])) {
             return false;
         }
 
         $file = $this->findFileWithExtension($class, '.php');
+
 
         // Search for Hack files if we are running on HHVM
         if (false === $file && defined('HHVM_VERSION')) {
