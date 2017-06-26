@@ -4,9 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "23902284b0f43a44c5f4dd45be57df4f",
-    "content-hash": "f3c544732dbcf5cbf4278c27d6774886",
+    "hash": "968c161f97c7306ac580a6546c6ea0e6",
+    "content-hash": "c35c205ff30744513e5e20ca85b4bd47",
     "packages": [
+        {
+            "name": "crumbls/events",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chasecmiller/events.git",
+                "reference": "6f9199074c40374e3509e4a3d4b31d0592569abf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chasecmiller/events/zipball/6f9199074c40374e3509e4a3d4b31d0592569abf",
+                "reference": "6f9199074c40374e3509e4a3d4b31d0592569abf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Crumbls\\Plugins\\Events\\": "src/"
+                }
+            },
+            "license": [
+                "CC-BY-NC-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Chase C. Miller",
+                    "email": "chase@crumbls.com"
+                }
+            ],
+            "description": "Crumbls Event System",
+            "keywords": [
+                "composer",
+                "package",
+                "template"
+            ],
+            "support": {
+                "source": "https://github.com/chasecmiller/events/tree/master",
+                "issues": "https://github.com/chasecmiller/events/issues"
+            },
+            "time": "2017-06-26 01:15:46"
+        },
         {
             "name": "guzzle/guzzle",
             "version": "v3.9.3",
@@ -2108,7 +2155,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "crumbls/events": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

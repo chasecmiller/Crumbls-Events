@@ -2162,5 +2162,54 @@
             "twocheckout",
             "worldpay"
         ]
+    },
+    {
+        "name": "crumbls/events",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chasecmiller/events.git",
+            "reference": "6f9199074c40374e3509e4a3d4b31d0592569abf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chasecmiller/events/zipball/6f9199074c40374e3509e4a3d4b31d0592569abf",
+            "reference": "6f9199074c40374e3509e4a3d4b31d0592569abf",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.2.*"
+        },
+        "time": "2017-06-26 01:15:46",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Crumbls\\Plugins\\Events\\": "src/"
+            }
+        },
+        "license": [
+            "CC-BY-NC-4.0"
+        ],
+        "authors": [
+            {
+                "name": "Chase C. Miller",
+                "email": "chase@crumbls.com"
+            }
+        ],
+        "description": "Crumbls Event System",
+        "keywords": [
+            "composer",
+            "package",
+            "template"
+        ],
+        "support": {
+            "source": "https://github.com/chasecmiller/events/tree/master",
+            "issues": "https://github.com/chasecmiller/events/issues"
+        }
     }
 ]

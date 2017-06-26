@@ -50,6 +50,10 @@ class ComposerStaticInitb19e80f539070011c7291be31858d7f0
             'Omnipay\\Buckaroo\\' => 17,
             'Omnipay\\AuthorizeNet\\' => 21,
         ),
+        'C' => 
+        array (
+            'Crumbls\\Plugins\\Events\\' => 23,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -172,6 +176,10 @@ class ComposerStaticInitb19e80f539070011c7291be31858d7f0
         'Omnipay\\AuthorizeNet\\' => 
         array (
             0 => __DIR__ . '/..' . '/omnipay/authorizenet/src',
+        ),
+        'Crumbls\\Plugins\\Events\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/crumbls/events/src',
         ),
     );
 

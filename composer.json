@@ -1,6 +1,12 @@
 {
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/chasecmiller/events"
+        }
+    ],
     "require": {
         "omnipay/omnipay": "~2.0",
-        "crumbls/events": "dev"
+        "crumbls/events": "dev-master"
     }
 }

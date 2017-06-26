@@ -9,7 +9,7 @@
             "email": "chase@crumbls.com"
         }
     ],
-    "type": "library",
+    "type": "git",
     "require": {
 		"php": ">=5.4"
     },

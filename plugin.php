@@ -11,7 +11,6 @@
  */
 
 namespace Crumbls\Plugins\Events;
-//Crumbls\\Plugins\\Events
 
 defined('ABSPATH') or exit(1);
 
